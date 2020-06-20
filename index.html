@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dictionary</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1 class="my-head">Dictionary</h1>
+        </div>
+    </nav>
+
+    <section class="input container">
+        <h1 class="dict">English -> English Dictionary</h1>
+        <h2>Enter A Word To Find It's Meaning:</h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type a word" id="input">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not__found"></div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p style="font-size: larger; font-weight: 800; color: lightskyblue">Made with <i class="fa fa-heart"></i>by Shubham Jha</p>
+        </div>
+        <div class="container">
+            <div class="footer-icons">
+                <a href="https://www.linkedin.com/in/shubham-jha-252001/"><i class="fa fa-2x fa-linkedin"></i></a>
+                <a href="https://github.com/shubhamjha25"><i class="fa fa-2x fa-github"></i></a>
+                <i class="fa fa-2x fa-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript File -->
+    <script src="./app.js"></script>
+    
+</body>
+
+</html>
